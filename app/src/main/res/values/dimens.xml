@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="height_divider">1dp</dimen>
+
+    <dimen name="padding_primary">16dp</dimen>
+</resources>

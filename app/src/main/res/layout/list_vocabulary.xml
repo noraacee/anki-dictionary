@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/padding_primary">
+
+    <TextView
+        android:id="@+id/kanji"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:gravity="end"
+        android:padding="@dimen/padding_primary"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        style="@style/Base.TextAppearance.AppCompat.Title"/>
+    <TextView
+        android:id="@+id/reading"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:gravity="end"
+        android:padding="@dimen/padding_primary"
+        app:layout_constraintTop_toBottomOf="@+id/kanji"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        style="@style/Base.TextAppearance.AppCompat.Title"/>
+    <TextView
+        android:id="@+id/def"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/padding_primary"
+        app:layout_constraintTop_toBottomOf="@+id/reading"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        style="@style/Base.TextAppearance.AppCompat.Body1"/>
+    <TextView
+        android:id="@+id/pos"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/padding_primary"
+        app:layout_constraintTop_toBottomOf="@+id/def"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        style="@style/Base.TextAppearance.AppCompat.Body1"/>
+    <TextView
+        android:id="@+id/tags"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/padding_primary"
+        app:layout_constraintTop_toBottomOf="@+id/pos"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        style="@style/Base.TextAppearance.AppCompat.Body1"/>
+    <TextView
+        android:id="@+id/raw"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/padding_primary"
+        app:layout_constraintTop_toBottomOf="@+id/tags"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        style="@style/Base.TextAppearance.AppCompat.Body1"/>
+
+</android.support.constraint.ConstraintLayout>

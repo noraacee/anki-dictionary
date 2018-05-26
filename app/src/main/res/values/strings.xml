@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">Anki Dictionary</string>
+
+    <string name="button_add">ADD</string>
+    <string name="button_create">CREATE</string>
+    <string name="button_custom">CUSTOM</string>
+    <string name="button_edit">EDIT</string>
+    <string name="button_search">SEARCH</string>
+    <string name="button_skip">SKIP</string>
+
+    <string name="description_back">back button</string>
+
+    <string name="error_request">A problem occurred while making a network request</string>
+
+    <string name="hint_search">Search…</string>
+
+    <string name="status_searching">SEARCHING…</string>
+
+
+    <string name="anki_error_category">A category must be selected</string>
+    <string name="anki_error_deck">Unable to find deck: </string>
+    <string name="anki_error_dictionary">A problem occurred while setting up the application</string>
+    <string name="anki_error_field_edit">&#160;cannot be empty</string>
+    <string name="anki_error_model">Unable to find model: </string>
+    <string name="anki_error_parse">A problem occurred while parsing the searching results</string>
+    <string name="anki_error_permission">Anki is not installed or permission not granted</string>
+    <string name="anki_error_results">A problem occurred while retrieving the search results</string>
+    <string name="anki_error_search">Search field cannot be empty</string>
+    <string name="anki_error_translation">Translations cannot be empty</string>
+
+    <string name="anki_hint_category">CATEGORY</string>
+    <string name="anki_hint_definitions">意味</string>
+    <string name="anki_hint_english">ENGLISH</string>
+    <string name="anki_hint_example">例文</string>
+    <string name="anki_hint_japanese">JAPANESE</string>
+    <string name="anki_hint_kanji">漢字</string>
+    <string name="anki_hint_parts_of_speech">品詞</string>
+    <string name="anki_hint_reading">読み方</string>
+    <string name="anki_hint_tags">TAGS</string>
+
+    <string name="anki_status_no_examples">NO EXAMPLES</string>
+    <string name="anki_status_searching_examples">SEARCHING EXAMPLES…</string>
+
+    <string name="anki_title_add">CONFIRM</string>
+    <string name="anki_title_example">&#160;examples:&#160;</string>
+    <string name="anki_title_search">SEARCH</string>
+    <string name="anki_title_vocabulary">&#160;definitions:&#160;</string>
+</resources>
